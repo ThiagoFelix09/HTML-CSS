@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Imagens</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 500px;
+            max-width: 1050px;
+            margin: auto;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Imagems Cropada</h1>
+    <p>você consegue visualizar essas imagens em tamanho diferente.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-700.png" type="image/png">
+        <img src="imagens/foto-1000.png" alt="imagens dinamicas">
+    </picture>
+</body>
+</html>

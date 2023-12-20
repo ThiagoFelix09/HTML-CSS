@@ -1,0 +1,25 @@
+/* ANATOMIA DE UMA CAIXA
+    height - altura
+    width  - largura
+    border - uma borda
+    padding - uma margem do conteúdo interno para a borda
+    margin - uma margem de espaço externo
+    outline - contorno ou traçado por fora da borda
+    box-level - 'div', que é uma quebra de linha.
+    inline-level - 'span', que é dentro da linha.
+    border-style - dashed, tracejado. doted, pontos. double, linha dupla. groove, 3D.
+    margin: auto; - se eu quiser alinhar todas as imagens ou boxing
+    text-aling - para alinhas textos
+
+    box-level - div                   inline-level - span
+                h1-h6                                a
+                p                                    code
+                main                                 small
+                header                               strong
+                nav                                  em
+                article                              sup - sub
+                aside                                label
+                footer                               button
+                form                                 input
+                video                                select
+*/
