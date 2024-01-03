@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints (Pontos de interrrupção típicos do dispositivo)
+Small: até 640px
+Médio: 641-1007px
+Big: 1008px e para cima
+*/
+
+@media screen and (min-width: 700px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 700px;
+    }
+}
